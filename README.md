@@ -317,7 +317,8 @@ legal_mern_chatbot/
     │   ├── vector_store.py     # FAISS + embeddings
     │   ├── conversation_manager.py  # Mongo-backed history
     │   ├── legal_evaluator.py  # LLM-as-a-Judge
-    │   └── document_processor.py
+    │   ├──translation_service.py # multilang service
+    |   └── document_processor.py
     ├── data/                   # PDFs go here
     ├── vector_store/           # Generated FAISS index
     ├── benchmark_queries.json  # 30 legal Q&A pairs
@@ -337,7 +338,6 @@ legal_mern_chatbot/
 **RAG Service Database (`rag_service`)**
 - `sessions`: RAG session metadata
 - `messages`: User/assistant messages with debug info
-- `conversation_summaries`: Auto-generated summaries
 - `evaluations`: LLM-as-a-Judge scores
 
 ---
