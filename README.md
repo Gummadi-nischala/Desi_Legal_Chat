@@ -53,8 +53,8 @@ legal_mern_chatbot/
 ### 1. Clone Repository
 
 ```bash
-git clone (https://github.com/GuduriAmulya/legal_mern_chatbot.git )
-cd legal_mern_chatbot
+git clone (https://github.com/Gummadi-nischala/Desi_Legal_Chat.git )
+cd Desi_Legal_Chat
 ```
 
 ### 2. Setup RAG Service (Python)
@@ -84,7 +84,7 @@ PORT=8000
 MODEL_MAX_TOKENS=6000
 RESERVED_RESPONSE_TOKENS=1000
 RETRIEVE_K=5
-ENABLE_TURN_SUMMARIZATION=false
+ENABLE_TURN_SUMMARIZATION=true
 ```
 
 **Download Legal Documents:**
